@@ -39,8 +39,7 @@ The database is designed to organize crowdfunding campaign data into distinct ta
 
 Below is the **Entity-Relationship Diagram (ERD)** for the database design:
 
-![ERD Diagram](![QuickDBD-export](https://github.com/user-attachments/assets/9b265875-c4a2-4e4e-b524-95c5247944a6)
-./QuickDBD-export.png)
+(![QuickDBD-export](https://github.com/user-attachments/assets/9b265875-c4a2-4e4e-b524-95c5247944a6))
 
 ### ERD Explanation
 
