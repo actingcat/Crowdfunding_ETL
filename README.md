@@ -1,6 +1,3 @@
-# Create the README file in the proper format for GitHub
-
-readme_content = """
 # Crowdfunding ETL
 
 Welcome to the **Crowdfunding ETL** project repository. This project extracts, transforms, and loads (ETL) data related to crowdfunding campaigns. It processes campaign information, contact details, categories, and subcategories, ultimately loading the data into a PostgreSQL database. 
