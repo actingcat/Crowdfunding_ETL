@@ -8,9 +8,10 @@ Welcome to the **Crowdfunding ETL** project repository. This project extracts, t
 2. [Features](#features)
 3. [Database Design](#database-design)
 4. [ERD Diagram](#erd-diagram)
-5. [Technologies Used](#technologies-used)
-6. [How to Use](#how-to-use)
-7. [Contributors](#contributors)
+5. [Data Visualizations]
+6. [Technologies Used](#technologies-used)
+7. [How to Use](#how-to-use)
+8. [Contributors](#contributors)
 
 ## Project Overview
 
@@ -57,17 +58,41 @@ Below is the **Entity-Relationship Diagram (ERD)** for the database design:
 - **QuickDBD**: Used for designing the database schema (ERD).
 - **Git/GitHub**: Version control and collaboration.
 
+## Data Visualizations
+
+The ETL pipeline includes visualizations to gain insights into the campaign data:
+
+### 1. Bar Chart: Campaign Success Rates by Outcome
+- **Graph Type**: Bar Chart
+- **Library**: `matplotlib`
+- **Description**: This bar chart shows the number of campaigns categorized by their outcome (successful, failed, canceled, or live). It provides a clear overview of how many campaigns have succeeded compared to those that failed or were canceled.
+---
+
+### 2. Donut Chart: Top 10 Companies by Total Pledged
+- **Graph Type**: Donut Chart
+- **Library**: `matplotlib`
+- **Description**: This donut chart displays the top 10 companies by the total amount pledged. It highlights the contribution of each company as a percentage of the total pledges.
+- 
+---
+
+### 3. Pie Chart: Top 5 Countries by Campaign Success Rate
+- **Graph Type**: Pie Chart
+- **Library**: `matplotlib`
+- **Description**: This pie chart shows the top 5 countries with the highest campaign success rates. It breaks down the success rates to demonstrate how different countries contribute to the overall success of crowdfunding campaigns.
+
+---
+
+### 4. Bar Chart: Subcategories Under Each Category
+- **Graph Type**: Stacked Bar Chart
+- **Library**: `matplotlib`
+- **Description**: This stacked bar chart provides an overview of the number of subcategories under each main category. It allows for the comparison of different categories, showing which categories are most diverse in terms of subcategory count.
+
+
 ## How to Use
 
 1. **Clone the Repository**:
     ```bash
     git clone https://github.com/actingcat/Crowdfunding_ETL.git
-    ```
-
-2. **Set Up the Environment**:
-    Make sure you have the required Python libraries installed:
-    ```bash
-    pip install -r requirements.txt
     ```
 
 3. **Run the ETL Pipeline**:
